@@ -145,9 +145,9 @@ const studioModalData = {
     body: `
       <div style="margin-bottom: 1.25rem;">
         <ul style="color:#334155; font-size:0.92rem; line-height:1.9; padding-left:1.2rem;">
-          <li><strong>Lisensi Pelatih Futsal:</strong> Sertifikasi kepelatihan level nasional untuk taktik dan pengembangan bibit atlet muda.</li>
-          <li><strong>Lisensi Pelatih Pencak Silat:</strong> Pembinaan seni gerak jurus tunggal dan tanding berkarakter budi luhur.</li>
-          <li><strong>Pelatih Kondisi Fisik:</strong> Strength & Conditioning specialist bersertifikasi kebugaran jasmani atletik.</li>
+          <li><strong>Lisensi Pelatih Futsal:</strong> Sertifikasi kepelatihan level nasional untuk taktik, formasi, dan pengembangan bibit atlet muda.</li>
+          <li><strong>Lisensi Pelatih Sepakbola:</strong> Sertifikasi kepelatihan lisensi resmi PSSI untuk fundamental teknik, taktik bermain, dan pembinaan tim.</li>
+          <li><strong>Pelatih Kondisi Fisik:</strong> Strength & Conditioning specialist bersertifikasi kebugaran jasmani atletik dan periodisasi latihan.</li>
         </ul>
       </div>
       <div style="display:flex; gap:0.75rem; justify-content:flex-end;">
