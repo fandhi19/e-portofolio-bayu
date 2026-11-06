@@ -1,6 +1,6 @@
 /**
  * Studio Theme Interactive Engine
- * Marfika Sayekti, S.Pd. - E-Portofolio PPG PJOK UNY
+ * Bayu Andika Asyari, S.Pd. - E-Portofolio PPG PJOK UNY
  * Features: Modals, Video Lightbox, Photo Lightbox, Form Toasts, Carousel Dots, Smooth Scroll
  */
 
@@ -82,7 +82,7 @@ const studioModalData = {
   'modul-voli': {
     category: 'SIKLUS 1 • UTS PPL TERBIMBING',
     title: 'Modul Ajar PJOK: Bola Voli Berdiferensiasi (Problem Based Learning)',
-    meta: 'Fase E (Kelas X) • Alokasi 3 JP (3 x 45 Menit) • SMP Negeri 12 Yogyakarta',
+    meta: 'Fase E (Kelas X) • Alokasi 3 JP (3 x 45 Menit) • SMK SMTI Yogyakarta',
     body: `
       <div style="margin-bottom: 1.25rem;">
         <h4 style="color:#0F172A; margin-bottom: 0.5rem; font-weight:800;">Target Capaian & Tujuan Pembelajaran</h4>
@@ -254,8 +254,8 @@ function initPhotoLightbox() {
   window.openStudioPhoto = function(imgSrc, title, desc, location) {
     if (photoImg) photoImg.src = imgSrc;
     if (photoTitle) photoTitle.textContent = title || 'Dokumentasi PPL PJOK UNY';
-    if (photoDesc) photoDesc.textContent = desc || 'Dokumentasi kegiatan resmi PPL PJOK PPG Calon Guru Universitas Negeri Yogyakarta di SMP Negeri 12 Yogyakarta.';
-    if (photoLoc) photoLoc.innerHTML = `<i class="fa-solid fa-location-dot" style="color:var(--color-sun-yellow-dark, #D97706); margin-right:6px;"></i> ${location || 'SMP Negeri 12 Yogyakarta'}`;
+    if (photoDesc) photoDesc.textContent = desc || 'Dokumentasi kegiatan resmi PPL PJOK PPG Calon Guru Universitas Negeri Yogyakarta di SMK SMTI Yogyakarta.';
+    if (photoLoc) photoLoc.innerHTML = `<i class="fa-solid fa-location-dot" style="color:var(--color-sun-yellow-dark, #D97706); margin-right:6px;"></i> ${location || 'SMK SMTI Yogyakarta'}`;
 
     photoModal.style.display = 'flex';
     requestAnimationFrame(() => {
@@ -297,7 +297,7 @@ function initCtaForm() {
     const nameInput = document.getElementById('cta-name');
     const name = nameInput ? nameInput.value.trim() : '';
 
-    showStudioToast(`Terima kasih ${name || 'Rekan'}! Pesan dan permintaan diskusi Anda telah berhasil dikirim ke Marfika Sayekti.`);
+    showStudioToast(`Terima kasih ${name || 'Rekan'}! Pesan dan permintaan diskusi Anda telah berhasil dikirim ke Bayu Andika Asyari.`);
     form.reset();
   });
 }
